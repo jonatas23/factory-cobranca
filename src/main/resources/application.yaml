@@ -1,0 +1,15 @@
+info:
+  app:
+    description: '@project.description@'
+    encoding: '@project.build.sourceEncoding@'
+  build:
+    artifact: '@project.artifactId@'
+    group: '@project.groupId@'
+    name: '@project.name@'
+    version: '@project.version@'
+server:
+  port: 8080
+  servlet:
+    context-path: /factory/v1.0
+  error:
+    include-message: always
